@@ -1,8 +1,9 @@
-let arr = [1, 2, 3, 4, 5, 7, 8, 9, 10];
-let Misarr = ((arr.length + 1) * (arr.length + 2)) / 2;
+let arr = [1, 2, 3, 4, 6, 7, 8, 9, 10];
+let misnum = ((arr.length + 1) * (arr.length + 2)) / 2;
+console.log(misnum);
 
 for (let i = 0; i < arr.length; i++) {
-    Misarr = Misarr - arr[i];
+    misnum = misnum - arr[i];
 }
 
-console.log(Misarr);
+console.log(misnum);

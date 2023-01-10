@@ -9,17 +9,16 @@
 // Output: [0,1]
 // Explanation: Because nums[0] + nums[1] == 9, we return [0, 1].
 
-var nums = [2, 7, 11, 15];
-var target = "";
-
-var TwoSum = function(nums, target) {
-    for ( var i = 0; i <= nums.length; i++) {
-        for (var j = i + 1; j <= nums.length; j++) {
-            if (nums[i] + nums[j] === target) {
-                return [i, j];
-            }
+let arr = [2, 7, 11, 15];
+let sum = 9;
+let result = 0;
+for(let i =0; i< arr.length; i++) {
+    for(let j = i+1; j < arr.length; j++) {
+        if(arr[i] + arr[j] == sum) {
+            result++;
         }
     }
 }
+console.log(result);
 
-console.log(TwoSum);
+
