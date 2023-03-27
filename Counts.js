@@ -14,3 +14,5 @@ function countAverageElements(arr) {
   console.log(countAverageElements([2,2,2,2,2])); // Output: 5
   console.log(countAverageElements([1,3,2,4,5])); // Output: 1
   
+
+ 
