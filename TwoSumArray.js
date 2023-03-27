@@ -10,7 +10,7 @@
 // Explanation: Because nums[0] + nums[1] == 9, we return [0, 1].
 
 let arr = [2, 7, 11, 15];
-let sum = 9;
+let sum = 16;
 let result = 0;
 for(let i =0; i< arr.length; i++) {
     for(let j = i+1; j < arr.length; j++) {
