@@ -10,4 +10,4 @@ for(let i = 0; i < arr.length; i++){
         secSmall = arr[i];
     }
 }
-console.log(sSmall);
+console.log(secSmall);
