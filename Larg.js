@@ -6,8 +6,8 @@ for(let i =0; i < arr.length; i++){
         secondLarg = larg;
         larg = arr[i];
     }
-    if(secondlarg < arr[i] && larg > arr[i]){
-        secondlarg = arr[i];
+    if(secondLarg < arr[i] && larg > arr[i]){
+        secondLarg = arr[i];
     }
 }
-console.log(secondlarg);
+console.log(secondLarg);
