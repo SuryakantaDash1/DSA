@@ -10,4 +10,4 @@ for(let i = 0; i < arr.length; i++){
         secondSmall = arr[i];
     }
 }
-console.log(secoSmall);
+console.log(secondSmall);
