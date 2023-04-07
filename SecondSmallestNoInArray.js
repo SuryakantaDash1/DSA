@@ -6,8 +6,8 @@ for(let i = 0; i < arr.length; i++){
         secondSmall = Small;
         Small = arr[i];
     }
-    if(secSmall > arr[i] && Small < arr[i]){
-        secSmall = arr[i];
+    if(secondSmall > arr[i] && Small < arr[i]){
+        secondSmall = arr[i];
     }
 }
-console.log(secSmall);
+console.log(secoSmall);
