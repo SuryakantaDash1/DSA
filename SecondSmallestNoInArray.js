@@ -7,7 +7,7 @@ for(let i = 0; i < arr.length; i++){
         Small = arr[i];
     }
     if(sSmall > arr[i] && Small < arr[i]){
-        secondSmall = arr[i];
+        sSmall = arr[i];
     }
 }
 console.log(secondSmall);
