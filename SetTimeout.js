@@ -1,9 +1,13 @@
-function a() {
-    let x = 5;
-    setTimeout(function(){
-        console.log(x);
-    }, 5000);
-}
+// function a() {
+//     let x = 5;
+//     setTimeout(function(){
+//         console.log(x);
+//     }, 5000);
+// }
 
-a();
+// a();
+
+setTimeout (() => {
+    console.log("hello");
+}, 5000);
 
