@@ -1,4 +1,4 @@
-const Arr = [1, 4, 4, 5, 6, 2, 3, 8, 7, 6, 4, 8, 6, 10];
-const DuplicateArr = [... new Set(Arr)];
-console.log(DuplicateArr);
+const arr = [1, 1, 2, 2, 2, 2, 3, 4, 4, 5, 6, 6, 6, 6, ];
+const ans = [...new Set(arr)];
+console.log(ans);
 
