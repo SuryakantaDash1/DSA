@@ -10,6 +10,6 @@ for(let i = 0; i < arr.length; i++){
     Missingnum = Missingnum - arr[i];
 }
 
-console.log(Misnum);
+console.log(Missingnum);
 
 
