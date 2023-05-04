@@ -1,13 +1,12 @@
 
-	let items = ['abc', 'def', 'xyz'];
+	let arr = ['abc', 'def', 'xyz'];
+	console.log(arr);
 
-	console.log(items);
+	let new_arr = [];
 
-	let new_Array = [];
-
-	items.forEach(function (item) {
-		new_Array.push(item);
+	items.forEach(function (arr) {
+		new_arr.push(arr);
 	});
 
-	console.log(new_Array);
+	console.log(new_arr);
 
