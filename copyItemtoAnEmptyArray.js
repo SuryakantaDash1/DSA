@@ -1,6 +1,5 @@
 
-	// Create and initialize an array
-	let items = ['GFG', 'Geeks', 'G4G'];
+	let items = ['abc', 'def', 'xyz'];
 
 	// Display the array items
 	console.log(items);
@@ -14,6 +13,5 @@
 		new_Array.push(item);
 	});
 
-	// Display the new array of items
 	console.log(new_Array);
 
