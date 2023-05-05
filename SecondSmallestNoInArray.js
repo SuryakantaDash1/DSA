@@ -6,8 +6,8 @@ for(let i = 0; i < arr.length; i++){
         secondSmall = Small;
         Small = arr[i];
     }
-    if(sSmall > arr[i] && Small < arr[i]){
-        sSmall = arr[i];
+    if(secondSmall > arr[i] && Small < arr[i]){
+        secondSmall = arr[i];
     }
 }
 console.log(secondSmall);
