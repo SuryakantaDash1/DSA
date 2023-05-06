@@ -1,6 +1,6 @@
-function test(arr_nums) 
+function test(arr) 
  {
-  return arr_nums.sort((x,y) => y - x)[arr_nums.length-3]
+  return arr.sort((x,y) => y - x)[arr.length-3]
 }
 
 nums = [2, 3, 5, 7, 1]
