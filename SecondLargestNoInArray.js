@@ -7,8 +7,8 @@ for (let i = 0; i < arr.length; i++){
         secLargest = Largest;
         Largest = arr[i];
     }
-    if(sLargest < arr[i] && Largest > arr[i]) {
-        sLargest = arr[i];
+    if(secLargest < arr[i] && Largest > arr[i]) {
+        secLargest = arr[i];
     }
 }
 console.log(sLargest);
