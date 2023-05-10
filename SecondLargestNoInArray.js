@@ -11,4 +11,4 @@ for (let i = 0; i < arr.length; i++){
         secLargest = arr[i];
     }
 }
-console.log(sLargest);
+console.log(secLargest);
