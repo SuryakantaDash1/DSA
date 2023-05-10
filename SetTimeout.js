@@ -7,7 +7,12 @@
 
 // a();
 
-setTimeout (() => {
-    console.log("hello");
-}, 5000);
+// setTimeout (() => {
+//     console.log("hello");
+// }, 5000);
+
+
+setTimeout(() => {
+    console.log("Hello");
+}, 8000);
 
