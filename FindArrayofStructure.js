@@ -1,6 +1,5 @@
 function Alert() {
           
-    // Array structure
     var guardians = ["Quill", "Gamora",
             "Groot", "Rocket", "Drax", 21];
       
