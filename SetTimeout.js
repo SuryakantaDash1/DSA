@@ -4,12 +4,11 @@ function a() {
         console.log(x);
     }, 5000);
 }
-
 a();
 
-// setTimeout (() => {
-//     console.log("hello");
-// }, 5000);
+setTimeout (() => {
+    console.log("hello");
+}, 5000);
 
 
 setTimeout(() => {
