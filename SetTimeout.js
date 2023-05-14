@@ -7,7 +7,7 @@
 // a();
 
 setTimeout (() => {
-    console.log("hello hii");
+    console.log("print");
 }, 5000);
 
 
