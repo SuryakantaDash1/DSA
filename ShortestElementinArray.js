@@ -5,4 +5,4 @@ for(let i =0; i < arr.length; i++) {
         shortestNo= arr[i];
     }
 }
-console.log(shortest);
+console.log(shortestNo);
