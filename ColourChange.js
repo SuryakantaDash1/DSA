@@ -3,4 +3,4 @@ let button = document.getElementById("btn");
 
 button.addEventListener('click', () => {
     cont.style.backgroundColor= "red";
-})
+});
