@@ -33,9 +33,10 @@
 // console.log(sum);
 
 
-let arr = [2, 5, 7, 9, 5];
-let sum = 0;
-for(let i = 0; i < arr.length; i++){
-    sum = sum + arr[i];
+let arr = [2, 4, 6, 8, 10];
+function sum(first, second) {
+    return first + second;
 }
-console.log(sum);
+
+let ans = arr.reduce(sum);
+console.log(ans);
