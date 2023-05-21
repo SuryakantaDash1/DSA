@@ -32,11 +32,3 @@
 // }
 // console.log(sum);
 
-
-let arr = [2, 4, 6, 8, 10];
-function sum(first, second) {
-    return first + second;
-}
-
-let ans = arr.reduce(sum);
-console.log(ans);
