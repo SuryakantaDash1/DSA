@@ -1,4 +1,4 @@
-const arr = [1, 2, 3, 4, 100];
+const arr = [2, 4, 5, 25, 10];
 const findMaxMin = (arr) => {
   let max = arr[0];
   let min = arr[0];
