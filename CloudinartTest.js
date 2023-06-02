@@ -1,4 +1,3 @@
-// File: cloudinaryTest.js
 
 import cloudinary from 'cloudinary';
 
@@ -21,5 +20,4 @@ const uploadTest = async () => {
   }
 };
 
-// Run the test
 uploadTest();
