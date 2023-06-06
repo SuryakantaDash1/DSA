@@ -1,4 +1,4 @@
-function gcdOfNumber(a, b) {
+function gcdOfNumbers(a, b) {
     let gcd;
     let max = Math.max(a, b);
     for (let i = 1; i <= max; i++) {
@@ -14,5 +14,5 @@ function gcdOfNumber(a, b) {
     let x = d.toString().trim().split(" ");
     let a = Number(x[0]);
     let b = Number(x[1]);
-    console.log(gcdOfNumber(a, b));
+    console.log(gcdOfNumbers(a, b));
   });
