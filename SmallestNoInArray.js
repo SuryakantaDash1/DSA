@@ -5,4 +5,4 @@ for(let i = 0; i<arr.length; i++){
         SmallNo = arr[i];
     }
 }
-console.log(Small);
+console.log(SmallNo);
