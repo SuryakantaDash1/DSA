@@ -10,7 +10,7 @@ for(let i = 0; i < arr.length; i++){
        
     }
     if(SecondMax < arr[i] && max > arr[i]){
-        Smax = arr[i];
+        SecondMax = arr[i];
     }
 }
-console.log(Smax);
+console.log(SecondMax);
